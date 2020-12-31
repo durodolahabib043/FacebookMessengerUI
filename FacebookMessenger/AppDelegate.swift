@@ -16,9 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         window = UIWindow()
         window?.makeKeyAndVisible()
-
-        let layout = UICollectionViewFlowLayout()
-        window?.rootViewController = UINavigationController(rootViewController: ViewController(collectionViewLayout: layout))
+        window?.rootViewController = CustomTabViewController()
 
         return true
     }

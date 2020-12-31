@@ -14,6 +14,7 @@
 		828937FE259AC0110021D755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 828937FC259AC0110021D755 /* LaunchScreen.storyboard */; };
 		82893809259AC4A40021D755 /* ProfileCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82893808259AC4A40021D755 /* ProfileCellCollectionViewCell.swift */; };
 		8289380E259AE7910021D755 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8289380D259AE7910021D755 /* Extension.swift */; };
+		82893812259D6A470021D755 /* CustomTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82893811259D6A470021D755 /* CustomTabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		828937FF259AC0110021D755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82893808259AC4A40021D755 /* ProfileCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCellCollectionViewCell.swift; sourceTree = "<group>"; };
 		8289380D259AE7910021D755 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		82893811259D6A470021D755 /* CustomTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				828937F5259AC00B0021D755 /* ViewController.swift */,
 				82893808259AC4A40021D755 /* ProfileCellCollectionViewCell.swift */,
+				82893811259D6A470021D755 /* CustomTabViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				82893809259AC4A40021D755 /* ProfileCellCollectionViewCell.swift in Sources */,
 				828937F2259AC00B0021D755 /* AppDelegate.swift in Sources */,
 				8289380E259AE7910021D755 /* Extension.swift in Sources */,
+				82893812259D6A470021D755 /* CustomTabViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
